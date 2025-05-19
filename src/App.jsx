@@ -30,7 +30,7 @@ function getPreparedGoods(goods, { sortField, isReversed }) {
         case SORT_FIELD_LENGTH:
           return good1.length - good2.length;
         default:
-          return null;
+          return 0;
       }
     });
   }
